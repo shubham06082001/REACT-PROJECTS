@@ -1,0 +1,16 @@
+.spread-map{
+    width: 100%;
+    height: 800px;
+    padding: 0;
+    margin: 0;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+/* @media (max-width: 770px) {
+
+    .spread-map{
+        height: 650px;
+    }
+  } */

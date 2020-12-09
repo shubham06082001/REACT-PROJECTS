@@ -1,0 +1,34 @@
+body {
+  background-image: linear-gradient(to left, red, orange, yellow);
+}
+.my-card {
+  margin-top: 30px;
+}
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  font-family: "Munchies Regular", monospace;
+  font-weight: bold;
+  margin: 40px auto;
+  background-image: linear-gradient(135deg, #7e57c2, #ff5722);
+}
+.input-field input {
+  color: white;
+}
+
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+  color: white !important;
+}
+.input-field input[type="password"]:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+  color: white !important;
+}
+.input-field input[type="email"]:focus {
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+  color: white !important;
+}

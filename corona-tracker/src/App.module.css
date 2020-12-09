@@ -1,0 +1,98 @@
+body {
+  /* background-color: #ffcac2; */
+  background-color: #393e46;
+  /* background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png"); */
+  background-image: url("https://www.transparenttextures.com/patterns/gplay.png");
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.top {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.image {
+  border: 1px solid white;
+  /* background-color: #e7305b; */
+  background-color: #393e46;
+  width: 370px;
+  height: 100px;
+  margin-top: 50px;
+  padding: 20px;
+  display: inline-block;
+  text-align: center !important;
+}
+.left_image {
+  border: 1px solid white;
+  margin-top: 50px;
+  width: 200px;
+  height: auto;
+  padding-bottom: 0px;
+  text-align: left;
+  /* display: inline-block; */
+  text-align: center;
+}
+.right_image {
+  border: 1px solid white;
+  margin-top: 50px;
+  width: 200px;
+  height: auto;
+  padding-bottom: 0px;
+  text-align: right;
+  /* display: inline-block; */
+  text-align: center;
+}
+.subHeading {
+  font-family: inherit;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  margin: 40px auto;
+}
+.subText {
+  font-family: inherit;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  display: flex;
+  margin: 50px;
+}
+.images{
+  justify-content: space-between;
+  text-align: center;
+
+}
+.gif {
+  width: 100%;
+  height: 500px;
+  max-width: 400px;
+  padding: 0;
+  margin: 0;
+  border: 2px solid white;
+  border-radius: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 30px;
+  text-align: center;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+
+  .image {
+    width: 50%;
+  }
+}

@@ -1,0 +1,207 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+
+a {
+  color: black !important ;
+  text-decoration: none !important;
+  font-family: "Sriracha", cursive !important;
+}
+.link {
+  font-size: 18px !important;
+  color: black !important;
+}
+.brand-logo {
+  font-family: "Grand Hotel", cursive !important;
+}
+.brand-logo {
+  font-size: 30px !important;
+}
+
+/* SIGNIN */
+@import url("https://fonts.googleapis.com/css?family=Numans");
+
+html,
+body {
+  /* background-image: url("http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg") !important; */
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  height: 100% !important;
+  font-family: "Numans", sans-serif !important;
+}
+
+.container {
+  height: 100% !important;
+  align-content: center !important;
+}
+
+.card {
+  height: auto !important;
+  margin-top: 100px !important;
+  margin-bottom: auto !important;
+  width: 500px !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.social_icon span {
+  font-size: 60px !important;
+  margin-left: 10px !important;
+  color: #ffc312 !important;
+}
+
+.social_icon span:hover {
+  color: white !important;
+  cursor: pointer !important;
+}
+
+.card-header h3 {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.social_icon {
+  position: absolute !important;
+  right: 20px !important;
+  top: -45px !important;
+}
+
+.input-group-prepend span {
+  width: 50px !important;
+  font-size: 25px !important;
+  background-color: #ffc312 !important;
+  color: white !important;
+  border: 0 !important;
+}
+input {
+  color: white !important;
+}
+::placeholder {
+  color: white !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white !important;
+}
+
+.remember input {
+  width: 20px !important;
+  height: 20px !important;
+  margin-left: 15px !important;
+  margin-right: 5px !important;
+}
+
+.login_btn {
+  font-weight: bold !important;
+  color: black !important;
+  background-color: #ffc312 !important;
+  width: 110px !important;
+}
+
+.login_btn:hover {
+  color: black !important;
+  background-color: white !important;
+}
+.create_btn {
+  font-weight: bold !important;
+  color: black !important;
+  background-color: #ffc312 !important;
+  width: 160px !important;
+  height: 50px !important;
+  text-align: center !important;
+}
+
+.create_btn:hover {
+  color: black !important;
+  background-color: white !important;
+}
+
+.links {
+  color: white !important;
+  font-size: 18px !important;
+}
+
+.links a {
+  margin-left: 4px !important;
+  font-size: 18px !important;
+  color: white !important;
+}
+.card-footer a {
+  font-size: 24px !important;
+  color: skyblue !important;
+}
+/* PROFILE */
+.Card {
+  background-color: skyblue !important;
+}
+
+#toast-container {
+  top: 50px !important;
+  right: 45% !important;
+  left: auto !important;
+  margin: 0 auto !important;
+}
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+
+a{
+  color: black !important;
+}
+
+.brand-logo,h2{
+  font-family: 'Grand Hotel', cursive;
+}
+
+.mycard{
+  margin-top: 30px;
+}
+.auth-card{
+  padding: 20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+}
+.input-field input[type=password]:focus {
+  border-bottom: 1px solid rgb(8, 93, 252) !important;
+  box-shadow: 0 1px 0 0 rgb(8, 93, 252)  !important;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width: 30%;
+}
+
+.home-card{
+  max-width: 500px;
+  height: max-content;
+  margin: 26px auto;
+  
+}
+.collection-item{
+  width: 100%;
+}
+
+
+#toast-container{
+  top:30px !important;
+  right: 20px !important;
+  left: auto !important;
+}
+
+
+.material-icons:hover{
+  cursor: pointer;
+}
